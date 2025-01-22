@@ -1,0 +1,28 @@
+{
+    "name": "cosmetic-analyzer-chrome-extension",
+    "version": "1.0.0",
+    "dependencies": {
+        "xlsx": "^0.18.5"
+    },
+    "description": "올리브영 화장품 성분 분석 크롬 확장 프로그램",
+    "main": "chrome_ext/background.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "chrome-extension",
+        "cosmetics",
+        "ingredient-analysis",
+        "oliveyoung"
+    ],
+    "author": "websfactory",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/websfactory/cosmetic-analyzer-chrome-extension.git"
+    },
+    "bugs": {
+        "url": "https://github.com/websfactory/cosmetic-analyzer-chrome-extension/issues"
+    },
+    "homepage": "https://github.com/websfactory/cosmetic-analyzer-chrome-extension#readme"
+}

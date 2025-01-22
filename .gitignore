@@ -1,0 +1,27 @@
+# 개발 환경 관련
+.DS_Store
+node_modules/
+.env
+
+# 외부 라이브러리
+chrome_ext/xlsx.full.min.js
+
+# 빌드 결과물
+dist/
+build/
+
+# IDE 설정
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 로그 파일
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 임시 파일
+.tmp/
+.temp/ 

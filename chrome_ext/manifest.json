@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "화장품 성분 분석 도구 테스트",
+  "version": "1.0",
+  "description": "올리브영에서 판매 중 제품 성분 분석 도구",
+  "permissions": ["activeTab", "storage", "contextMenus", "tabs"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["xlsx.full.min.js", "content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
