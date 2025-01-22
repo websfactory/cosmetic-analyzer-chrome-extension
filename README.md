@@ -26,17 +26,19 @@
 
 ## 프로젝트 구조
 
+```
 cosmetic-analyzer-chrome-extension/
 ├── chrome_ext/
-│ ├── background.js
-│ ├── content.js
-│ ├── manifest.json
-│ ├── styles.css
-│ └── xlsx.full.min.js
+│   ├── background.js
+│   ├── content.js
+│   ├── manifest.json
+│   ├── styles.css
+│   └── xlsx.full.min.js
 ├── .gitignore
 ├── LICENSE
 ├── package.json
 └── README.md
+```
 
 ## 개발 환경
 
